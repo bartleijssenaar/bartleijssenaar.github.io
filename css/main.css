@@ -112,7 +112,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard.light{
-    background: url('../img/billboard.jpg') no-repeat;   
+    background: url('../img/billboard3.jpg') no-repeat;   
      
     background-size: cover;
     -webkit-background-size: cover;
@@ -553,7 +553,7 @@ footer .footer_logo{
     float: left;
 }
 
-footer .rights p{
+footer p{
     float: left;
     color: #838181;
     font-family: "raleway-regular";
