@@ -161,7 +161,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard .caption.light h1{
-    color: #fff;
+    color: #6fd0ee;
 }
 
 .billboard .caption.dark h1{
@@ -175,7 +175,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard .caption.light p{
-    color: #fff;
+    color: #6fd0ee;
 }
 
 .billboard .caption.dark p{
@@ -192,7 +192,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard .caption.light hr{
-    background: #fff;
+    background: #6fd0ee;
 }
 
 .billboard .caption.dark hr{
