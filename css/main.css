@@ -146,7 +146,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard .caption.light{
-    color: #6fd0ee;
+    color: #fff;
 }
 
 .billboard .caption.dark{
@@ -161,7 +161,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard .caption.light h1{
-    color: #6fd0ee;
+    color: #fff;
 }
 
 .billboard .caption.dark h1{
@@ -175,7 +175,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard .caption.light p{
-    color: #6fd0ee;
+    color: #fff;
 }
 
 .billboard .caption.dark p{
@@ -192,7 +192,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard .caption.light hr{
-    background: #6fd0ee;
+    background: #fff;
 }
 
 .billboard .caption.dark hr{
@@ -240,7 +240,7 @@ header nav ul li a{
 }
 
 header.light nav ul li a{  
-    color: #fff;
+    color: #6fd0ee;
 }
 
 header.light nav ul li a:hover{
