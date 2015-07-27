@@ -112,7 +112,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .billboard.light{
-    background: url('../img/billboard3.jpg') no-repeat;   
+    background: url('../img/billboard.jpg') no-repeat;   
      
     background-size: cover;
     -webkit-background-size: cover;
@@ -578,7 +578,7 @@ footer nav ul{
 
 footer nav ul li{
     float: left;
-    margin-left: 25px;
+    margin-left: 50px;
 }
 
 footer nav ul li a{
