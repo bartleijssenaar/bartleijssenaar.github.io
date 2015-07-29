@@ -1567,7 +1567,7 @@
 
 	body, input, select, textarea {
 		color: #a2a2a2;
-		family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -2231,7 +2231,7 @@
 				}
 
 				ul.labeled-icons li a {
-					color: #03ace3;
+					color: inherit;
 				}
 
 				ul.labeled-icons li h3 {
@@ -2461,14 +2461,14 @@
 		}
 
 /* Header */
-		/**/
+
 	#header {
-		background-color: ##03ace3;
+		background-color: #03ace3;
 		background-attachment: scroll,								fixed;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,									100% auto;
+		background-size: auto,								100% auto;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2926,13 +2926,12 @@
 						display: inline;
 					}
 
-		/* Footer */
-		/* url("images/overlay.png"), */
+		/* Footer url("images/overlay.png"), */
 
 			#footer {
 				background-attachment: none;
-				background-color: #black;
-				background-image:  url("../../images/bg.jpg");
+				background-color: #1f1815;
+				background-image: url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
