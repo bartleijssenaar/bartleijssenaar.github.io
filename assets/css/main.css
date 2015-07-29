@@ -2931,7 +2931,7 @@
 			#footer {
 				background-attachment: scroll;
 				background-color: #black;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-image: url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
