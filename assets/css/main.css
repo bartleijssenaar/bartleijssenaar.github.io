@@ -2930,7 +2930,7 @@
 		/* url("images/overlay.png"), */
 
 			#footer {
-				background-attachment: scroll;
+				background-attachment: none;
 				background-color: #black;
 				background-image:  url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
