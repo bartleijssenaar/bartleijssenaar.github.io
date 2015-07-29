@@ -2927,15 +2927,16 @@
 					}
 
 		/* Footer */
+		/* url("images/overlay.png"), */
 
 			#footer {
 				background-attachment: scroll;
 				background-color: #black;
-				background-image: url("../../images/bg.jpg");
+				background-image:  url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
-				bottom: auto;
+				bottom: none;
 				left: auto;
 				padding: 4em 4em 6em 4em;
 				position: relative;
