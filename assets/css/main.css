@@ -2463,9 +2463,9 @@
 /* Header */
 		/**/
 	#header {
-		background-color: #black;
+		background-color: ##03ace3;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/bgblue2.jpg");
+		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,									100% auto;
