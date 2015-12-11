@@ -1,116 +1,460 @@
-<!DOCTYPE HTML>
-<!--
-	Lens by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<link rel="icon" type="image/ico" href="favicon.ico"/>
-		<title>PhotoRollBL</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-loading-0 is-loading-1 is-loading-2">
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- Main -->
-			<div id="main">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        
+        <!--Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/animate.css">
+        
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="css/main.css">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Photo<font color=#06d6f4>Roll</font></h1>
-						<p>Hobby photographer on a stroll through Africa</p>
-						<ul class="icons">
-							<li><a href="https://facebook.com/bart.leijssenaar " target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="https://ug.linkedin.com/pub/bart-leijssenaar/75/683/6b4" target="_blank" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
-					</header>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body data-spy="scroll" data-target=".navbar">
 
-				<!-- Thumbnail -->
-					<section id="thumbnails">
-						<article>
-							<a class="thumbnail" href="images/fulls/01.jpg" data-position="left center"><img src="images/thumbs/01.jpg" alt="" /></a>
-							<h2>Jeezeka</h2>
-							<p>Local trade street in downtown Kampala, Uganda</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/02.jpg"><img src="images/thumbs/02.jpg" alt="" /></a>
-							<h2>Clouds</h2>
-							<p>Window in the skies</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/03.jpg" data-position="top center"><img src="images/thumbs/03.jpg" alt="" /></a>
-							<h2>Schiphol</h2>
-							<p>Royal blue</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/04.jpg"><img src="images/thumbs/04.jpg" alt="" /></a>
-							<h2>Buziga</h2>
-							<p>Quarry at Kampala</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/05.jpg" data-position="top center"><img src="images/thumbs/05.jpg" alt="" /></a>
-							<h2>Blue & White</h2>
-							<p>Flying high</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/06.jpg"><img src="images/thumbs/06.jpg" alt="" /></a>
-							<h2>Lake Victoria</h2>
-							<p>Monday morning</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/07.jpg"><img src="images/thumbs/07.jpg" alt="" /></a>
-							<h2>'ye olde Taxi Park</h2>
-							<p>Hunderds of "taxis" gather at the public transportation hub in Kampala</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/08.jpg"><img src="images/thumbs/08.jpg" alt="" /></a>
-							<h2>Rusty</h2>
-							<p>African craft enjoying the sun</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/09.jpg"><img src="images/thumbs/09.jpg" alt="" /></a>
-							<h2>White skies</h2>
-							<p>Lake Victoria at the break of dawn</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/10.jpg"><img src="images/thumbs/10.jpg" alt="" /></a>
-							<h2>Sunday eve</h2>
-							<p>Colorful skies</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/11.jpg"><img src="images/thumbs/11.jpg" alt="" /></a>
-							<h2>Pharetra ex non faucibus</h2>
-							<p>Ut sed magna euismod leo laoreet congue. Fusce congue enim ultricies.</p>
-						</article>
-						<article>
-							<a class="thumbnail" href="images/fulls/12.jpg"><img src="images/thumbs/12.jpg" alt="" /></a>
-							<h2>Mattis lorem sodales</h2>
-							<p>Feugiat auctor leo massa, nec vestibulum nisl erat faucibus, rutrum nulla.</p>
-						</article>
-					</section>
+        <header>
+                <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="col-md-6">
+                        <img class="img-responsive" src="img/logolarge.png">   
+                    </div>
+                    
+                    <div class="navbar-header"> 
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Bart</li><li>Leijssenaar: <a href="www.facebook.com/bart.leijssenaar">2015</a></li>
-						</ul>
-					</footer>
+                        <span class="sr-only"> Toggle Navigation </span> 
+                        <span class="icon-bar"> </span>
+                        <span class="icon-bar"> </span>
+                        <span class="icon-bar"> </span>
 
-			</div>
+                        </button>
+                    </div> <!--navbar-header-->
+                    
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav nav-justified">
+                            <li><a data-scroll href="#about"> About </a></li>
+                            <li><a data-scroll href="#screenshots"> Areas of Expertise </a></li>
+                            <li><a data-scroll href="#services"> Services </a></li>
+                            <li><a href="careers.html"> Careers </a></li>
+                            <li><a data-scroll href="#contact"> Contact </a></li>
+                        </ul>
+                    </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+                    
+                </nav>
+        </header>
+        
+        <!-- Landing Section -->
+        <section class="hero"> 
+            
+						<div class="col-md-7 col-md-offset-1">
+							<h1 class="animated fadeInDown well big">The full Services provider and strategic partner with 25 years of experience in the automation and information industry. We craft custom made solution that focuses on increasing core business results. </h1>
+						</div>
+					
+        
+        </section>
+       
+        <!-- About Section -->
+        <section id="about" class="about"> 
+                <div class="container"> 
+                    <h2 class="text-center"> About </h2>
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <p class="one text-center"> Lorem ipsum dolor sit amet, ac vitae malesuada aenean, integer amet, eget bibendum vel cursus, porttitor bibendum sociis hendrerit mauris ut convallis, vel risus gravida non. Feugiat nullam dis, ut arcu mattis quis. Non sem molestias, at sed sed vitae, suspendisse sapien elit lobortis massa molestie, velit amet a ultrices vel donec id, tellus consequat duis dictumst a amet.</p>
+                        
+                        </div>
+                    
+                    </div>
+                    <div class="row two">
+                            <div class="col-md-4">
 
-	</body>
+                                <div class="blue-circle animation1">
+                                    <div>
+                                        <i class="fa fa-apple"></i>
+                                        <i class="fa fa-android"></i>
+                                        <i class="fa fa-windows"></i>
+                                    </div>
+                                </div>
+                                <h3 class="text-uppercase text-center"> iOS, Android and Windows </h3>
+                                <p class="text-center"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+
+                            </div>  
+
+                        <div class="col-md-4">
+
+                            <div class="blue-circle animation2">
+                                <div>
+                                    <i class="fa fa-facebook"></i>
+                                    <i class="fa fa-twitter"></i>
+                                </div>
+                            </div>
+                            <h3 class="text-uppercase text-center">Facebook & Twitter </h3>
+                            <p class="text-center"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  </p>
+
+                        </div>  
+
+                        <div class="col-md-4">
+
+                            <div class="blue-circle animation3">
+                                <div>
+                                    <i class="fa fa-phone"></i>
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                
+                            </div>
+                            <h3 class="text-uppercase text-center"> Online Support </h3>
+                            <p class="text-center"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  </p>
+
+                        </div>  
+
+                    </div> <!--row -->
+                    
+                    <div class="row">
+                        <div class="col-md-5">
+                            <p> <b> Trusted partner of: </b> </p>
+                        </div>
+                    </div>
+                     <div class="row">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img class="img-responsive" src="img/logosmall.png">
+                        </div>
+                         <div class="col-md-2">
+                            <img class="img-responsive" src="img/logosmall.png">
+                        </div>
+                    </div>
+            </div> <!--container -->
+            
+        </section> <!--about -->
+        
+                
+        <!--Screenshots Section -->
+        
+        <section id="screenshots" class="screenshots">
+            <!-- <h2 class="text-center text-uppercase"> Areas of Expertise </h2> -->
+            
+            <div class="container-fluid"> 
+                <div class="row">
+                    <ul class="grid">
+                        <li>
+                            <div class="col-md-3 nopadding animation1">
+                                <figure>
+								<img src="img/screenshot1.png">
+								<figcaption>
+								<div class="caption-content">
+									<a href="#modal" data-toggle="modal" data-image-url="img/download.png" class="single_image">
+										<i class="fa fa-search"></i><br>
+                                        <h1>Pharmaceuticals</h1>
+                                        <p>read more</p>
+									</a>
+								</div>
+								</figcaption>
+							</figure>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="col-md-3 nopadding animation2">
+                                <figure>
+								<img src="img/screenshot2.png">
+								<figcaption>
+								<div class="caption-content">
+									<a href="#modal" data-toggle="modal" data-image-url="img/download.png" class="single_image">
+										<i class="fa fa-search"></i><br>
+										<h1>Netherlands</h1>
+                                        <p>read more</p>
+									</a>
+								</div>
+								</figcaption>
+							</figure>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="col-md-3 nopadding animation3">
+                                <figure>
+								<img src="img/screenshot1.png">
+								<figcaption>
+								<div class="caption-content">
+									<a href="#modal" data-toggle="modal" data-image-url="img/download.png" class="single_image">
+										<i class="fa fa-search"></i><br>
+										<h1>Brazil</h1>
+                                        <p>read more</p>
+									</a>
+								</div>
+								</figcaption>
+							</figure>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="col-md-3 nopadding animation4">
+							 <figure>
+								<img src="img/screenshot2.png">
+								<figcaption>
+								<div class="caption-content">
+									<a href="#modal" data-toggle="modal" data-image-url="img/download.png" class="single_image">
+										<i class="fa fa-search"></i><br>
+										<h1>Others</h1>
+                                        <p>read more</p>
+									</a>
+								</div>
+								</figcaption>
+							 </figure>
+                            </div>
+						</li>
+       
+                        
+                       <!-- <li>
+                            <div class="col-md-3 nopadding">
+                                <a href="#modal" data-toggle="modal" data-image-url="img/download.png">
+                                    <img class="img-responsive" src="img/screenshot2.jpg">
+                                </a>
+                            </div>
+                        </li> -->
+                    </ul>
+                    
+                </div> <!--row-->
+                <div class="row">
+                    <ul class="grid">
+                        <li>
+                            <div class="col-md-3 nopadding animation1">
+                                <figure>
+								<img src="img/screenshot2.png">
+								<figcaption>
+								<div class="caption-content">
+									<a href="#modal" data-toggle="modal" data-image-url="img/download.png" class="single_image">
+										<i class="fa fa-search"></i><br>
+										<h1>Oil and Gas</h1>
+                                        <p>read more</p>
+									</a>
+								</div>
+								</figcaption>
+							</figure>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <div class="col-md-3 nopadding animation2">
+                                <figure>
+								<img src="img/screenshot1.png">
+								<figcaption>
+								<div class="caption-content">
+									<a href="#modal" data-toggle="modal" data-image-url="img/download.png" class="single_image">
+										<i class="fa fa-search"></i><br>
+										<h1>Spain</h1>
+                                        <p>read more</p>
+									</a>
+								</div>
+								</figcaption>
+							</figure>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <div class="col-md-3 nopadding animation3">
+                                <figure>
+								<img src="img/screenshot2.png">
+								<figcaption>
+								<div class="caption-content">
+									<a href="#modal" data-toggle="modal" data-image-url="img/download.png" class="single_image">
+										<i class="fa fa-search"></i><br>
+										<h1>Netherlands</h1>
+                                        <p>read more</p>
+									</a>
+								</div>
+								</figcaption>
+							</figure>
+                            </div>
+                        </li>
+                    
+                        <li>
+                            <div class="col-md-3 nopadding animation4">
+                                <figure>
+								<img src="img/screenshot1.png">
+								<figcaption>
+								<div class="caption-content">
+									<a href="#modal" data-toggle="modal" data-image-url="img/download.png" class="single_image">
+										<i class="fa fa-search"></i><br>
+										<h1>Germany</h1>
+                                        <p>read more</p>
+									</a>
+								</div>
+								</figcaption>
+							</figure>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div> <!--row-->
+            </div> <!--container -->
+            
+            <div id="modal" class="modal fade" tabIndex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+                <div class="modal-body text-center">
+                    <img src="#">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true"> Close </button>
+                
+                </div>
+            
+            </div>
+        </section> <!--Screenshots -->
+        
+        
+        <!--Services Section -->
+        <section id="services" class="services">
+            <h2 class="text-center"> Services </h2>
+            <div class="container"> 
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <p class="one text-center"> <b>Lorem ipsum dolor sit amet, ac vitae malesuada aenean, integer amet, eget bibendum vel cursus, porttitor bibendum sociis hendrerit mauris ut convallis, vel risus gravida non. Feugiat nullam dis, ut arcu mattis quis. Non sem molestias, at sed sed vitae, suspendisse sapien elit lobortis massa molestie, velit amet a ultrices vel donec id, tellus consequat duis dictumst a amet.</b> </p>
+                        
+                        </div>
+                    
+                    </div>
+                    <div class="row">
+                            <div class="col-md-4 col-md-pull-2">
+                                
+                                <h3 class="text-center"> Consultancy </h3>
+                                <div class="blue-circle animation1">
+                                    <div>
+                                        <i class="fa fa-users"></i>
+                                    </div>
+                                </div>
+                                <p class="text-center three"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+
+                            </div>  
+
+                        <div class="col-md-4">
+                            
+                            <h3 class="text-center"> Turnkey Projects </h3>
+
+                            <div class="blue-circle animation2">
+                                <div>
+                                    <i class="fa fa-calendar"></i>
+                                </div>
+                            </div>
+                            
+                            <p class="text-center three"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  </p>
+
+                        </div>  
+
+                        <div class="col-md-4 col-md-push-2">
+                            
+                            <h3 class="text-center"> Online Support </h3>
+
+                            <div class="blue-circle animation3">
+                                <div>
+                                    <img class="img-responsive" src="img/logoxxs.png">
+                                </div>
+                            </div>
+                            
+                            <p class="text-center three"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  </p>
+
+                        </div>  
+
+                    </div> <!--row -->
+                
+                <div class="row">
+                            <div class="col-md-4 col-md-pull-2">
+                                
+                                <h3 class="text-center"> Consultancy </h3>
+                                <div class="blue-circle animation1"></div>
+                                <p class="text-center three"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+
+                            </div>  
+
+                        <div class="col-md-4">
+                            
+                            <h3 class="text-center"> Turnkey Projects </h3>
+
+                            <div class="blue-circle animation2"></div>
+                            
+                            <p class="text-center three"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  </p>
+
+                        </div>  
+
+                        <div class="col-md-4 col-md-push-2">
+                            
+                            <h3 class="text-center"> Online Support </h3>
+
+                            <div class="blue-circle animation3"></div>
+                            
+                            <p class="text-center three"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  </p>
+
+                        </div>  
+
+                    </div> <!--row -->
+                    
+                    
+                   
+            </div> <!--container -->
+    
+        </section> <!--features -->
+        
+        
+        <!--Parallex Section -->
+        <section id="parallax" class="parallax">
+            <h2 class="parallax text-center"> Add any relevant Text here </h2> 
+        
+        </section> 
+        
+        <!--Careers Section -->
+        
+        <!-- Contact -->
+        <section id="contact" class="contact">
+            <p>Contact NL</p>
+                
+            <address>
+                Prins Hendricklaan 7, Zeist, The Netherlands<br>
+                <a class="mail" href="mailto:#">info@bellt.nl</a><br>
+                030 69 22 758<br>
+                7Route link<br>
+            </address>
+            
+            <p>Contact BE</p>
+                
+            <address>
+                Prins Hendricklaan 7, Zeist, The Netherlands<br>
+                <a class="mail" href="mailto:#">info@bellt.nl</a> <br>
+                030 69 22 758<br>
+                7Route link<br>
+            </address>
+            
+            <p>Contact ES</p>
+                
+            <address>
+                Prins Hendricklaan 7, Zeist, The Netherlands<br>
+                <a class="mail" href="mailto:#">info@bellt.nl</a> <br>
+                030 69 22 758<br>
+                7Route link<br>
+            </address>
+        </section>
+        
+         <!-- Footer -->
+        
+         <footer>
+            <p class="text-center text-uppercase"> All Rights Reserved 2015 </p>
+        </footer>
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        
+        
+        <!--Bootstrap JS -->
+        <script src="js/bootstrap.min.js" ></script>
+        <script src="js/smooth-scroll.js" ></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
 </html>

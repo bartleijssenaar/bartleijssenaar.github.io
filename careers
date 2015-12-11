@@ -1,0 +1,338 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        
+        <!--Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/animate.css">
+        
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body data-spy="scroll" data-target=".navbar">
+
+        <header>
+                <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="col-md-6">
+                        <img src="img/logolarge.png">   
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav nav-justified">
+                            <li><a data-scroll href="#about"> About </a></li>
+                            <li><a data-scroll href="#screenshots"> Areas of Expertise </a></li>
+                            <li><a data-scroll href="#services"> Services </a></li>
+                            <li><a data-scroll href="#careers"> Careers </a></li>
+                            <li><a data-scroll href="#contact"> Contact </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="navbar-header"> 
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+                        <span class="sr-only"> Toggle Navigation </span> 
+                        <span class="icon-bar"> </span>
+                        <span class="icon-bar"> </span>
+                        <span class="icon-bar"> </span>
+
+                        </button>
+                    </div> <!--navbar-header-->
+                </nav>
+        </header>
+        
+        <!-- Landing Section -->
+        <section class="hero"> 
+            
+						<div class="col-md-7 col-md-offset-1">
+							<h1 class="animated fadeInDown well big">The full Services provider and strategic partner with 25 years of experience in the automation and information industry. We craft custom made solution that focuses on increasing core business results. </h1>
+						</div>
+					
+        
+        </section>
+       
+        <!-- About Section -->
+        <section id="about" class="about"> 
+                <div class="container"> 
+                    <h2 class="text-center text-uppercase"> About </h2>
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <p class="one text-center"> Lorem ipsum dolor sit amet, ac vitae malesuada aenean, integer amet, eget bibendum vel cursus, porttitor bibendum sociis hendrerit mauris ut convallis, vel risus gravida non. Feugiat nullam dis, ut arcu mattis quis. Non sem molestias, at sed sed vitae, suspendisse sapien elit lobortis massa molestie, velit amet a ultrices vel donec id, tellus consequat duis dictumst a amet.</p>
+                        
+                        </div>
+                    
+                    </div>
+                    <div class="row two">
+                            <div class="col-md-4">
+
+                                <div class="blue-circle"></div>
+                                <h3 class="text-uppercase text-center"> iOS, Android and Windows </h3>
+                                <p class="text-center"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+
+                            </div>  
+
+                        <div class="col-md-4">
+
+                            <div class="blue-circle"></div>
+                            <h3 class="text-uppercase text-center">Facebook & Twitter </h3>
+                            <p class="text-center"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  </p>
+
+                        </div>  
+
+                        <div class="col-md-4">
+
+                            <div class="blue-circle"></div>
+                            <h3 class="text-uppercase text-center"> Online Support </h3>
+                            <p class="text-center"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  </p>
+
+                        </div>  
+
+                    </div> <!--row -->
+                    
+                    <div class="row">
+                        <div class="col-md-5">
+                            <p> <b> Trusted partner of: </b> </p>
+                        </div>
+                    </div>
+                     <div class="row">
+                        <div class="col-md-2 col-md-offset-1">
+                            <img src="img/logosmall.png">
+                        </div>
+                         <div class="col-md-1 ">
+                            <img src="img/logosmall.png">
+                        </div>
+                    </div>
+            </div> <!--container -->
+            
+        </section> <!--about -->
+        
+                
+        <!--Screenshots Section -->
+        
+        <section id="screenshots" class="screenshots">
+            <!-- <h2 class="text-center text-uppercase"> Areas of Expertise </h2> -->
+            
+            <div class="container-fluid"> 
+                <div class="row">
+                    <ul class="grid">
+                        <li>
+                            <div class="col-md-3 nopadding">
+                                <a href="#modal" data-toggle="modal" data-image-url="img/download.png">
+
+                                    <img class="img-responsive" src="img/screenshot1.png">
+                                </a>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="col-md-3 nopadding">
+                                <a href="#modal" data-toggle="modal" data-image-url="img/download.png">
+
+                                    <img class="img-responsive" src="img/screenshot2.png">
+                                </a>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="col-md-3 nopadding">
+                                <a href="#modal" data-toggle="modal" data-image-url="img/download.png">
+                                    <img class="img-responsive" src="img/screenshot1.png">
+                                </a>
+                            </div>
+                        </li>
+                        
+                       <!-- <li>
+                            <div class="col-md-3 nopadding">
+                                <a href="#modal" data-toggle="modal" data-image-url="img/download.png">
+                                    <img class="img-responsive" src="img/screenshot2.jpg">
+                                </a>
+                            </div>
+                        </li> -->
+                    </ul>
+                    
+                </div> <!--row-->
+                <div class="row">
+                    <div class="col-md-3 nopadding">
+                        <a href="#modal" data-toggle="modal" data-image-url="img/download.png">
+                        
+                            <img class="img-responsive" src="img/screenshot2.png">
+                        </a>
+                    </div>
+                    
+                    <div class="col-md-3 nopadding">
+                        <a href="#modal" data-toggle="modal" data-image-url="img/download.png">
+                        
+                            <img class="img-responsive" src="img/screenshot1.png">
+                        </a>
+                    </div>
+                    
+                    <div class="col-md-3 nopadding">
+                        <a href="#modal" data-toggle="modal" data-image-url="img/download.png">
+                            <img class="img-responsive" src="img/screenshot2.png">
+                        </a>
+                    </div>
+                    
+                    <div class="col-md-3 nopadding">
+                        <a href="#modal" data-toggle="modal" data-image-url="img/download.png">
+                            <img class="img-responsive" src="img/screenshot1.png">
+                        </a>
+                    </div>
+                    
+                </div> <!--row-->
+            </div> <!--container -->
+            
+            <div id="modal" class="modal fade" tabIndex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+                <div class="modal-body">
+                    <img src="#">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true"> Close </button>
+                
+                </div>
+            
+            </div>
+        </section> <!--Screenshots -->
+        
+        
+        <!--Services Section -->
+        <section id="services" class="services">
+            <h2 class="text-center text-uppercase"> Services </h2>
+            <div class="container"> 
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <p class="one text-center"> <b>Lorem ipsum dolor sit amet, ac vitae malesuada aenean, integer amet, eget bibendum vel cursus, porttitor bibendum sociis hendrerit mauris ut convallis, vel risus gravida non. Feugiat nullam dis, ut arcu mattis quis. Non sem molestias, at sed sed vitae, suspendisse sapien elit lobortis massa molestie, velit amet a ultrices vel donec id, tellus consequat duis dictumst a amet.</b> </p>
+                        
+                        </div>
+                    
+                    </div>
+                    <div class="row">
+                            <div class="col-md-4 col-md-pull-2">
+                                
+                                <h3 class="text-center"> Consultancy </h3>
+                                <div class="blue-circle"></div>
+                                <p class="text-center three"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+
+                            </div>  
+
+                        <div class="col-md-4">
+                            
+                            <h3 class="text-center"> Turnkey Projects </h3>
+
+                            <div class="blue-circle"></div>
+                            
+                            <p class="text-center three"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  </p>
+
+                        </div>  
+
+                        <div class="col-md-4 col-md-push-2">
+                            
+                            <h3 class="text-center"> Online Support </h3>
+
+                            <div class="blue-circle"></div>
+                            
+                            <p class="text-center three"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  </p>
+
+                        </div>  
+
+                    </div> <!--row -->
+                
+                <div class="row">
+                            <div class="col-md-4 col-md-pull-2">
+                                
+                                <h3 class="text-center"> Consultancy </h3>
+                                <div class="blue-circle"></div>
+                                <p class="text-center three"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+
+                            </div>  
+
+                        <div class="col-md-4">
+                            
+                            <h3 class="text-center"> Turnkey Projects </h3>
+
+                            <div class="blue-circle"></div>
+                            
+                            <p class="text-center three"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  </p>
+
+                        </div>  
+
+                        <div class="col-md-4 col-md-push-2">
+                            
+                            <h3 class="text-center"> Online Support </h3>
+
+                            <div class="blue-circle"></div>
+                            
+                            <p class="text-center three"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  </p>
+
+                        </div>  
+
+                    </div> <!--row -->
+                    
+                    
+                   
+            </div> <!--container -->
+    
+        </section> <!--features -->
+        
+        
+        <!--Parallex Section -->
+        <section id="parallax" class="parallax">
+            <h2 class="parallax text-center"> Also available for Desktop </h2>
+        
+        </section>
+        
+        <!--Careers Section -->
+        <section id="careers" class="careers">
+            <h2 class="text-center text-uppercase"> Careers </h2>
+            
+            
+        
+        </section> <!--Careers -->
+        
+        
+        
+        
+        <footer>
+            <p>Contact NL</p>
+                
+            <address>
+                Prins Hendricklaan 7, Zeist, The Netherlands<br>
+                <a href="mailto:#">nfo@bellt.nl</a>
+                030 69 22 758<br>
+                7Route link<br>
+            </address>
+            
+            <p>Contact BE</p>
+                
+            <address>
+                Prins Hendricklaan 7, Zeist, The Netherlands<br>
+                <a href="mailto:#">nfo@bellt.nl</a>
+                030 69 22 758<br>
+                7Route link<br>
+            </address>
+            
+            <p>Contact ES</p>
+                
+            <address>
+                Prins Hendricklaan 7, Zeist, The Netherlands<br>
+                <a href="mailto:#">nfo@bellt.nl</a>
+                030 69 22 758<br>
+                7Route link<br>
+            </address>
+
+        </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        
+        
+        <!--Bootstrap JS -->
+        <script src="js/bootstrap.min.js" ></script>
+        <script src="js/smooth-scroll.js" ></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
