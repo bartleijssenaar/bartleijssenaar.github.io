@@ -1,6 +1,7 @@
 $(document).ready(function() {
-    $('section#screenshots a').on('click', function() {
+    $('section#screenshots a').hover(function() {
         $('div#modal img').attr('src', $(this).attr('data-image-url') );
+        $("#modal").modal("show");       
     });
     
     var nav = $('.navbar-fixed-top');
@@ -53,6 +54,6 @@ $(document).ready(function() {
 smoothScroll.init( {
     speed: 3000,
     easing: 'easeInOutQuad',
-    offset: 50
+    offset: 80
 
 });
