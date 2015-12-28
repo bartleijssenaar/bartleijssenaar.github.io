@@ -25,31 +25,32 @@
 
         <header font-family:PT Sans , sans-serif;>
                 <nav class="navbar navbar-default navbar-fixed-top">
-                    <div class="col-md-4">
-                        <img class="img-responsive" src="img/logolarge1.png">   
+                    <div class="container-fluid">
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="img/logolarge1.png">   
+                        </div>
+
+                        <div class="navbar-header"> 
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+
+                            <span class="sr-only"> Toggle Navigation </span> 
+                            <span class="icon-bar"> </span>
+                            <span class="icon-bar"> </span>
+                            <span class="icon-bar"> </span>
+
+                            </button>
+                        </div> <!--navbar-header-->
+
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav nav-justified">
+                                <li><a data-scroll href="#about"> About </a></li>
+                                <li><a data-scroll href="#screenshots"> Areas of Expertise </a></li>
+                                <li><a data-scroll href="#services"> Services </a></li>
+                                <li><a href="careers.html"> Careers </a></li>
+                                <li><a data-scroll href="#contact"> Contact </a></li>
+                            </ul>
+                        </div>
                     </div>
-                    
-                    <div class="navbar-header"> 
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-
-                        <span class="sr-only"> Toggle Navigation </span> 
-                        <span class="icon-bar"> </span>
-                        <span class="icon-bar"> </span>
-                        <span class="icon-bar"> </span>
-
-                        </button>
-                    </div> <!--navbar-header-->
-                    
-                    <div class="navbar-collapse collapse">
-                        <ul class="nav nav-justified">
-                            <li><a data-scroll href="#about"> About </a></li>
-                            <li><a data-scroll href="#screenshots"> Areas of Expertise </a></li>
-                            <li><a data-scroll href="#services"> Services </a></li>
-                            <li><a href="careers.html"> Careers </a></li>
-                            <li><a data-scroll href="#contact"> Contact </a></li>
-                        </ul>
-                    </div>
-
                     
                 </nav>
         </header>
@@ -78,8 +79,8 @@
                     <div class="row two">
                             <div class="col-md-4">
 
-                                <div class="redcircle">
-                                    <img src="img/p2b1.png">
+                                <div class="redcircle animation1">
+                                    <img src="img/redcircle.png">
                                 </div>
                                 <h3 class="text-uppercase text-center"> iOS, Android and Windows </h3>
                                 <p class="text-center"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
@@ -88,7 +89,7 @@
 
                         <div class="col-md-4">
 
-                            <div class="redcircle">
+                            <div class="redcircle animation2">
                                     <img src="img/redcircle.png">
                             </div>
                             <h3 class="text-uppercase text-center">Facebook & Twitter </h3>
@@ -98,7 +99,7 @@
 
                         <div class="col-md-4">
 
-                            <div class="redcircle">
+                            <div class="redcircle animation3">
                                     <img src="img/redcircle.png">
                             </div>
                             
@@ -135,6 +136,7 @@
             
         </section> <!--about -->
         
+        
                 
         <!--Screenshots Section -->
         
@@ -148,10 +150,10 @@
 								<img src="img/oilgas.png">
 								<figcaption>
 								<div class="caption-content well">
-									<a href="#modal" data-toggle="modal">
-                                        <h5>oil and Gas 1</h5>
+									<div class="readmore">
+                                        <h5>oil and Gas</h5>
                                         <h6>read more</h6>
-									</a>
+									</div>
 								</div>
                                 <div class="mask">
                                     <h1>Oil and Gas</h1>
@@ -163,17 +165,23 @@
 							</figure>
                             </div>
 
-                            <div class="col-md-4 nopadding">
+                            <div class="col-md-4 nopadding view view-second">
                                 <figure>
 								<img src="img/pharma.png">
 								<figcaption>
-								<div class="caption-content">
-									<a href="#modal" data-toggle="modal" data-image-url="img/download.png" class="single_image">
-										<h1>Pharma...</h1>
-                                        <p>read more</p>
-									</a>
+								<div class="caption-content well">
+									<div>
+                                        <h5>Pharmacies </h5>
+                                        <h6>read more</h6>
+									</div>
 								</div>
+                                <div class="mask">
+                                    <h1>Pharmacies</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                                    
+                                </div>
 								</figcaption>
+                                
 							</figure>
                             </div>
 
@@ -182,10 +190,10 @@
 								<img src="img/paperpulp.png">
 								<figcaption>
 								<div class="caption-content">
-									<a href="#modal" data-toggle="modal" data-image-url="img/download.png" class="single_image">
+									<div>
 										<h1>Paper and Pulp</h1>
                                         <p>read more</p>
-									</a>
+									</div>
 								</div>
 								</figcaption>
 							</figure>
@@ -388,10 +396,10 @@
                         <div class="col-md-4">
                             <h1>Contact BE</h1>
                             <div>
-                            Prins Hendricklaan 7, Zeist, The Netherlands<br />
-                            <a class="mail" href="mailto:#">info@bellt.nl</a><br>
-                            030 69 22 758<br />
-                            7Route link<br />
+                            <i class="fa fa-location-arrow"></i> &nbsp; Prins Hendricklaan 7, Zeist, The Netherlands<br />
+                            <i class="fa fa-envelope-o"></i>&nbsp; <a class="mail" href="mailto:#">info@bellt.nl</a><br>
+                            <i class="fa fa-phone"></i> &nbsp; 030 69 22 758<br />
+                            <i class="fa fa-road"></i> &nbsp; 7Route link<br />
                             </div>
                             <hr />
 
@@ -406,10 +414,10 @@
                         <div class="col-md-4">
                             <h1>Contact ES</h1>
                             <div>
-                            Prins Hendricklaan 7, Zeist, The Netherlands<br />
-                            <a class="mail" href="mailto:#">info@bellt.nl</a><br>
-                            030 69 22 758<br />
-                            7Route link<br />
+                            <i class="fa fa-location-arrow"></i> &nbsp; Prins Hendricklaan 7, Zeist, The Netherlands<br />
+                            <i class="fa fa-envelope-o"></i>&nbsp; <a class="mail" href="mailto:#">info@bellt.nl</a><br>
+                            <i class="fa fa-phone"></i> &nbsp; 030 69 22 758<br />
+                            <i class="fa fa-road"></i> &nbsp; 7Route link<br />
                             </div>
                             <hr />
 
