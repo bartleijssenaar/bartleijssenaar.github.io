@@ -1,4 +1,4 @@
-<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?sensor=fale"></script>
     <script>
       function initialize() {
         var mapCanvas = document.getElementById('map');
