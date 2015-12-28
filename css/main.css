@@ -201,13 +201,16 @@ h2:after, h3:after {
 }
 
 .nav > li.active {
-    background-color: #41031d;
+    background-color: #d26381;
     transition: 1s all ease;
-    
+}
+
+.nav >li.active > a {	
+	color: #ffffff;
 }
 
 .effect {
-    background-color: #eeebea;
+    background-color: #ffffff;
     opacity: 0.95;
     min-height: 30px;
     box-shadow: 0 0 10px black;
